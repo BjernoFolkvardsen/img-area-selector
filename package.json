@@ -12,6 +12,8 @@
     "test:coverage": "nyc npm test",
     "test:coverage:report": "nyc report --reporter=html",
     "test:watch": "mocha --watch",
+    "cov": "nyc report --reporter=lcov",
+    "ci": "npm run lint && npm run cov",
     "prepare": "husky install"
   },
   "repository": {
