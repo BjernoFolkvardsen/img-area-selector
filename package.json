@@ -1,0 +1,41 @@
+{
+  "name": "img-area-selector",
+  "version": "0.0.0",
+  "description": "npm package for selecting an area of an image.",
+  "author": "Frederik Bjerno Folkvardsen <contact@gacela.dk>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "npm run lint -- --fix",
+    "release": "standard-version --no-verify",
+    "test": "mocha",
+    "test:coverage": "nyc npm test",
+    "test:coverage:report": "nyc report --reporter=html",
+    "test:watch": "mocha --watch",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BjernoFolkvardsen/img-area-selector"
+  },
+  "bugs": {
+    "url": "https://github.com/BjernoFolkvardsen/img-area-selector/issues"
+  },
+  "keywords": [
+    "img-area-selector"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
+    "eslint": "^8.56.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.0",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "prettier": "^3.2.4",
+    "standard-version": "^9.5.0"
+  },
+  "files": [],
+  "license": "MIT"
+}
