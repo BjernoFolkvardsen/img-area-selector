@@ -1,6 +1,6 @@
 {
   "name": "img-area-selector",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "npm package for selecting an area of an image.",
   "author": "Frederik Bjerno Folkvardsen <contact@gacela.dk>",
   "main": "index.js",
