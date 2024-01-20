@@ -6,7 +6,7 @@ A Javascript package for selecting an area of an image.
 
 [![NPM version](https://img.shields.io/npm/v/img-area-selector.svg)](https://www.npmjs.com/package/img-area-selector)
 [![Build Status](https://travis-ci.org/BjernoFolkvardsen/img-area-selector.svg?branch=master)](https://travis-ci.org/BjernoFolkvardsen/img-area-selector)
-[![Coverage Status](https://coveralls.io/repos/github/BjernoFolkvardsen/img-area-selector/badge.svg?branch=master)](https://coveralls.io/github/BjernoFolkvardsen/img-area-selector?branch=master)
+[![codecov](https://codecov.io/gh/BjernoFolkvardsen/img-area-selector/graph/badge.svg?token=VUWPMZVQ0M)](https://codecov.io/gh/BjernoFolkvardsen/img-area-selector)
 
 ## Installation
 
